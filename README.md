@@ -1,8 +1,5 @@
 # Multi-Modal-Hate-Speech-Detection-in-Memes
 BERT-ResNet fusion model with cross-attention for content moderation
-
-# Multimodal Meme Harmfulness Classification
-
 Detects harmful memes using both visual and textual content with BERT and ResNet.
 
 ## Overview
@@ -33,8 +30,6 @@ PyTorch 1.12+
 
 Transformers 4.18+
 
-text
-
 2. **requirements.txt**:
 torch==2.0.1
 torchvision==0.15.2
@@ -44,8 +39,6 @@ scikit-learn==1.2.2
 matplotlib==3.7.1
 Pillow==9.5.0
 tqdm==4.65.0
-
-text
 
 3. **src/model.py** (Core component):
 ```python
